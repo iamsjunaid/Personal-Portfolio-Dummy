@@ -1,15 +1,22 @@
 body{
     font-family: 'Quicksand', sans-serif;
+    background-color: rgb(209, 185, 153);
+  }
+  h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
   }
   
   #navbar {
     display:flex;
-    flex-direction:column;
+    overflow: hidden;
+    flex-direction:row;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #FF5733;
+    background-color: #ff3333;
     color: white;
     font-family: 'Exo 2', sans-serif;
     padding: 1em;
@@ -19,7 +26,10 @@ body{
     list-style:none;
     float:right;
   }
-  
+  #profile-link {
+    color: black;
+    text-align: center;
+  }
   a{
     display:block;
     padding:15px;
@@ -51,7 +61,7 @@ body{
   footer p{
     margin-bottom:0;
     text-align:center;
-    background-color:darkgray;
+    background-color:rgb(201, 195, 236);
   }
   
   @media only screen and (max-width: 600px) {
@@ -68,4 +78,11 @@ body{
     width: 400px;
     height:250px;
   }
+  }
+
+  .code {
+    color: #ff3333;
+  }
+  .project-title {
+    color: black;
   }
